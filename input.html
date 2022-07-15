@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        #img {
+            height: 32px;
+            width: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body style="font-family: 'Ubuntu', sans-serif;">
+    <div class="big_contain">
+
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #492f75; color: white;">
+            <a class="navbar-brand" href="#"><strong><img
+                        src="/lightning-icon-small-flat-iconset-paomedia-928495-removebg-preview.png" alt="" id="img">
+                    Thunder Buddies</strong> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Contact-Us</a>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+        <div class="main_contain">
+
+            <div class="container">
+
+                <div class="title">
+                    <h3><b>Rain fall Prediction</b> </h3>
+                </div>
+                <br>
+                <form action="#">
+                    <div class="user-details">
+
+                        <div>
+                            <td><b>Select District</b></td>
+                            <tr>
+
+                                <td class="details" align="center"><select class="input-box">
+                                        <option value="selectDist">District</option>
+                                        <option value="Angul">Angul</option>
+                                        <option value="Balangir">Balangir</option>
+                                        <option value="Balasore">Balasore</option>
+                                        <option value="Bargarh">Bargarh</option>
+                                        <option value="Bhadrak">Bhadrak</option>
+                                        <option value="Boudh">Boudh</option>
+                                        <option value="Cuttack">Cuttack</option>
+                                        <option value="Deogarh">Deogarh</option>
+                                        <option value="Dhenkanal">Dhenkanal</option>
+                                        <option value="Gajapati">Gajapati</option>
+                                        <option value="Ganjam">Ganjam</option>
+                                        <option value="Jagatsinghapur">Jagatsinghapur</option>
+                                        <option value="Jajpur">Jajpur</option>
+                                        <option value="Jharsuguda">Jharsuguda</option>
+                                        <option value="Kalahandi">Kalahandi</option>
+                                        <option value="Kandhamal">Kandhamal</option>
+                                        <option value="Kendrapara">Kendrapara</option>
+                                        <option value="Keonjhar">Keonjhar</option>
+                                        <option value="Khordha">Khordha</option>
+                                        <option value="Koraput">Koraput</option>
+                                        <option value="Malkangiri">Malkangiri</option>
+                                        <option value="Mayurbhanj">Mayurbhanj</option>
+                                        <option value="Nabarangpur">Nabarangpur</option>
+                                        <option value="Nayagarh">Nayagarh</option>
+                                        <option value="Nuapada">Nuapada</option>
+                                        <option value="Puri">Puri</option>
+                                        <option value="Rayagada">Rayagada</option>
+                                        <option value="Sambalpur">Sambalpur</option>
+                                        <option value="Sonepur">Sonepur</option>
+                                        <option value="Sundargarh">Sundargarh</option>
+
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <!-- <span class="details"><strong>Select District</strong> </span>
+                    <input type="text" placeholder="Enter Your name" required> -->
+                        </div>
+
+                        <div>
+                            <td><b>Select From Date</b></td>
+                            <td>
+
+                                <select name="month" class="input-box" id="month">
+                                    <option value="0">Month
+                                    </option>
+                                    <option value="01">Jan
+                                    </option>
+                                    <option value="02">Feb
+                                    </option>
+                                    <option value="03">Mar
+                                    </option>
+                                    <option value="04">Apr
+                                    </option>
+                                    <option value="05">May
+                                    </option>
+                                    <option value="06">Jun
+                                    </option>
+                                    <option value="07">Jul
+                                    </option>
+                                    <option value="08">Aug
+                                    </option>
+                                    <option value="09">Sep
+                                    </option>
+                                    <option value="10">Oct
+                                    </option>
+                                    <option value="11">Nov
+                                    </option>
+                                    <option value="12">Dec
+                                    </option>
+                                </select> <select name="year" size="1" class="input-box" id="year">
+                                    <option value="year">Year</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                </select>
+                            </td>
+                            <!-- <span class="details"><strong>Select From Date</strong> </span>
+                    <input type="text" placeholder="Enter Your name" required> -->
+                        </div>
+
+                    </div>
+
+
+                    <div class="button">
+                        <input type="submit" value="Search">
+                    </div>
+                    <br>
+                    <div class="desc">
+                        <h3 id="desc"><b>Description</b></h3>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet quidem quia laudantium
+                        distinctio nemo optio rem numquam. Voluptatum asperiores accusantium eum explicabo voluptatibus
+                        ducimus
+                        quisquam molestias, hic repudiandae consectetur labore voluptatem incidunt sunt quas sed itaque
+                        suscipit
+                        recusandae quibusdam sapiente, magnam maiores quod, tempora deserunt possimus! Libero labore
+                        minus
+                        dicta
+                        voluptatem modi consectetur qui
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <footer>
+            <div class="container1">
+                <ul class="flex-row">
+                <li>
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li>
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fab fa-google"></i>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+            <p>&copy; 2020 ThunderBuddies.com </p>
+
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/3d25ce3704.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
