@@ -119,7 +119,6 @@ footer i{
 .container form .user-details{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0 12px 0;
 }
 /* form .user-details .input-box{
     margin-bottom: 15px;
