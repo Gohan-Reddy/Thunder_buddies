@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .big_contain{
-    background: linear-gradient(135deg, #a32897, #3479cf);
+     background: linear-gradient(135deg, #c8d5f6, #1e0847);
     background-repeat: no-repeat;
    
 
@@ -112,7 +112,7 @@ footer i{
     bottom: 0;
     height:3px;
     width: 93px;
-    background: linear-gradient(135deg, #a32897, #3479cf);
+    background: linear-gradient(135deg, #c8d5f6, #1e0847);
 
 }
 
@@ -138,11 +138,11 @@ form .button input{
     font-weight: 500;
     border-radius: 5px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #a32897, #3479cf);
+     background: linear-gradient(135deg, #c8d5f6, #1e0847);
 }
 
 form .button input:hover{
-    background: linear-gradient(-135deg, #a32897, #3479cf);
+    background: linear-gradient(-135deg, #c8d5f6, #1e0847);
 }
 
 .desc{
@@ -153,7 +153,7 @@ form .button input:hover{
 
 footer{
     color: white;
-    background-color: #3479cf;
+    background-color: #492f75;
 
   
 
