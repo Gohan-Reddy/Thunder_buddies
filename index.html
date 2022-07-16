@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Weather App</title>
+    <style>
+        #img {
+            height: 32px;
+            width: 20px;
+        }
+
+        footer {
+            color: white;
+            background-color: #492f75;
+
+
+
+
+        }
+
+        footer .container1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        footer ul {
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer li {
+            list-style: none;
+            padding: 0 15px;
+            margin-bottom: 17px;
+            margin-top: 17px;
+
+
+        }
+
+        footer a {
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+        }
+
+
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark " style="background-color: #492f75; color: white;">
+        <a class="navbar-brand" href="#"><strong><img
+                    src="/lightning-icon-small-flat-iconset-paomedia-928495-removebg-preview.png" alt="" id="img">
+                Thunder Buddies</strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link" href="contact.html">Contact-Us</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+
+
+
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 25 May
+                </div>
+
+                <div class="others" id="current-weather-items">
+                    <a href="#" style="color: white; text-decoration: none;"><strong>Rain Predictor</strong> </a>
+
+                </div>
+            </div>
+
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">India/Odisha</div>
+                <div id="country" class="country">IN</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="other">
+                <div class="day">Mumbai</div>
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day">Delhi</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Bangalore</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Hyderabad</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Chennai</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Kolkata</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+
+        </div>
+    </div>
+
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/3d25ce3704.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
