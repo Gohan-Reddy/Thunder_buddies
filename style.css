@@ -65,7 +65,7 @@ footer i{
 }
 @media (min-width:375px) and (max-width:667px){
     .container{
-        max-width: 392px ;
+        max-width: 380px ;
         padding: 17px;
 
     } 
