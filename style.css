@@ -73,7 +73,7 @@ footer i{
         height: 87vh;
     }
     #desc{
-        text-align: center;
+        /*text-align: center;*/
         text-decoration: underline;
     }
 
