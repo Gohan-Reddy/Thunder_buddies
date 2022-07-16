@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        #img {
+            height: 32px;
+            width: 20px;
+        }
+
+        
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.big_contain{
+    background: linear-gradient(135deg, #c8d5f6, #1e0847);
+    background-repeat: no-repeat;
+   
+
+}
+
+
+
+footer i{
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.main_contain{
+    display:block;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container{
+    max-width:1200px;
+    width:130%;
+    background: #fff;
+    padding:25px 30px;
+    border-radius: 5px;
+
+}
+@media (max-width:1324px){
+    .container{
+        max-width: 993px ;
+
+    } 
+    .big_contain{
+      
+    }
+}
+  
+
+
+@media (max-width:1324px) and (min-width:668px){
+    .container{
+        max-width: 600px ;
+
+    } 
+  
+
+}
+@media (min-width:375px) and (max-width:667px){
+    .container{
+        max-width: 330px ;
+        padding: 17px;
+
+    } 
+
+    .main_contain{
+        height: 87vh;
+    }
+    .desc{
+        font-size: 12px;
+    }
+
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-box{
+        padding: 2px;
+    }
+
+    footer i{
+        font-size: 24px;
+
+    }
+    
+  
+  
+
+}
+
+
+form .button{
+    height: 45px;
+    margin: 40px 0;
+}
+
+form .button input{
+    height: 100%;
+    width:50%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #c8d5f6, #1e0847);
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #c8d5f6, #1e0847);
+}
+
+.desc{
+    margin-top: 59px;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+
+#About{
+    font-size: 25px;
+    font-weight:500;
+    position:relative;
+
+}
+
+#About::before{
+    content:'';
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    height:3px;
+    width: 93px;
+    background: linear-gradient(-135deg, #c8d5f6, #1e0847);
+
+}
+
+
+footer{
+    color: white;
+    background-color: #492f75;
+
+  
+
+    
+}
+
+footer .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer ul{
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+    padding: 0 15px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+    
+
+}
+
+footer a{
+    font-size: 14px;
+    font-weight: 500;
+    color:white;
+}
+
+
+
+footer p{
+    text-align: center;
+}
+
+
+    </style>
+
+
+</head>
+
+<body style="font-family: 'Ubuntu', sans-serif;">
+    <div class="big_contain">
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark " style="background-color: #492f75; color: white;">
+            <a class="navbar-brand" href="#"><strong><img
+                        src="/lightning-icon-small-flat-iconset-paomedia-928495-removebg-preview.png" alt="" id="img">
+                    Thunder Buddies</strong> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Contact-Us</a>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+        <div class="main_contain">
+            <div class="desc">
+                <h3 id="About"><b>About</b></h3>
+                <br>
+                Rainfall forecasting has gained utmost research relevance in recent times due to its complexities and persistent applications such as flood forecasting and monitoring of pollutant concentration levels, among others. Existing models use complex statistical models that are often too costly, both computationally and budgetary, or are not applied to downstream applications. Therefore, approaches that use Machine Learning algorithms in conjunction with time-series data are being explored as an alternative to overcome these drawbacks. To this end, this study presents a comparative analysis using simplified rainfall estimation models based on conventional Machine Learning algorithms and Deep Learning architectures that are efficient for these downstream applications. Models based on LSTM, Stacked-LSTM, Bidirectional-LSTM Networks, XGBoost, and an ensemble of Gradient Boosting Regressor, Linear Support Vector Regression, and an Extra-trees Regressor were compared in the task of forecasting hourly rainfall volumes using time-series data. Climate data from 2000 to 2020 from five major cities in the United Kingdom were used. The evaluation metrics of Loss, Root Mean Squared Error, Mean Absolute Error, and Root Mean Squared Logarithmic Error were used to evaluate the models’ performance. Results show that a Bidirectional-LSTM Network can be used as a rainfall forecast model with comparable performance to Stacked-LSTM Networks. Among all the models tested, the Stacked-LSTM Network with two hidden layers and the Bidirectional-LSTM Network performed best. This suggests that models based on LSTM-Networks with fewer hidden layers perform better for this approach; denoting its ability to be applied as an approach for budget-wise rainfall forecast applications.
+            </div>
+
+            
+            </div>
+
+        
+        <footer>
+            <div class="container1">
+                <ul class="flex-row">
+                <li>
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li>
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li>
+                    <i class="fab fa-google"></i>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+            <p>&copy; 2020 ThunderBuddies.com </p>
+
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/3d25ce3704.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
